@@ -4,10 +4,19 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+astroid==1.4.8            # via pylint
+backports.functools-lru-cache==1.3  # via pylint
 click==6.6                # via flask
+configparser==3.5.0       # via pylint
 flask-script==2.0.5
 Flask==0.11.1             # via flask-script
+isort==4.2.5              # via pylint
 itsdangerous==0.24        # via flask
 Jinja2==2.8               # via flask
+lazy-object-proxy==1.2.2  # via astroid
 MarkupSafe==0.23          # via jinja2
+mccabe==0.5.2             # via pylint
+pylint==1.6.4
+six==1.10.0               # via astroid, pylint
 Werkzeug==0.11.11         # via flask
+wrapt==1.10.8             # via astroid
