@@ -1,3 +1,7 @@
+'''
+helper router handler
+'''
+
 from flask import Blueprint
 
 helper_blueprint = Blueprint(__name__, 'helper')

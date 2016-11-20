@@ -1,3 +1,7 @@
+'''
+flask app
+'''
+
 from config import configs
 from flask import Flask
 
