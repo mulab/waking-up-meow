@@ -7,7 +7,7 @@ def create_app(name):
     app.config.from_object(configs[name])
 
     from app.helper import helper_blueprint
-    if app.config.get('PRODUCTION') == False:
+    if not app.config.get('PRODUCTION') == True:
         # You can use `app.config` to get runtime enviroment
         app.register_blueprint(helper_blueprint, url_prefix='/helper')
 
