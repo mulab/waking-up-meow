@@ -24,7 +24,7 @@ class ProductionConfig(Config):
     # TODO:
     pass
 
-configs  = {
+configs = {
     'development': DevelopmentConfig,
     'testing': TestingConfig,
     'production': ProductionConfig,

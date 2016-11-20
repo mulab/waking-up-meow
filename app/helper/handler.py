@@ -1,4 +1,6 @@
-from app.helper import helper_blueprint
+from flask import Blueprint
+
+helper_blueprint = Blueprint(__name__, 'helper')
 
 
 @helper_blueprint.route('/', methods=['GET'])
